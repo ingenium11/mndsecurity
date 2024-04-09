@@ -2,7 +2,7 @@
   $id = $_GET['id_param'];
   $pw = $_GET['pw_param'];
 
-  $db_conn = mysqli_connect("127.0.0.1", "webhacing_db", "webhacking", "login");
+  $db_conn = mysqli_connect("127.0.0.1", "webhacking_db", "webhacking", "login");
   if($db_conn == false) {
     echo mysqli_connect_error();
   }
